@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7fffdb"
+    android:padding="8dp">
+
+    <LinearLayout android:id="@+id/Text"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/student_reg"
+        android:layout_toEndOf="@+id/student_reg">
+        <TextView
+            android:id="@+id/Text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF7F3300"
+            android:textSize="20dip"
+            android:textStyle="italic"
+            android:layout_marginLeft = "20dp"
+
+            />
+        <TextView
+            android:id="@+id/Text_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dip"
+            android:textColor="#FF267F00"
+            android:paddingLeft="100dip"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/student_reg"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:textSize="12dip"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/shape_textview"
+        android:textAlignment="gravity" />
+
+</RelativeLayout>
